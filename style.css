@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .app{
+     
+        padding: 11px;
+        width: 56%;
+        margin: 50px auto 0;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+
+ .app h1{
+    font-size: 30px;
+
+ } 
+ 
+
+    
+.btn {
+    background-color: darkseagreen;
+    font-family: cursive;
+    margin: 10px;
+    width: 90%;
+    font-weight: 500px;
+    padding: 6px;
+    font-size: 22px;
+    display: block;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: beige;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#nextbtn{
+    display: none;
+    width: 20%;
+    margin-left: 190px;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+
+.correct{
+    background:lightgreen;
+}
+
+.incorrect{
+    background: tomato;
+}
+ 
+    
+    
+
